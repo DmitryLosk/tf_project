@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: soul
+    groups: sudo
+    shell: /bin/bash
+    sudo: 'ALL=(ALL) NOPASSWD:ALL'
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCoQ5/820lUEWImMvkzsts2XwY7Br05M+CxWYG1z+x5u2cphb24QpbHqUY6ntj3+TU4X7vEI2qherg4dSyX73xGij8jS7z09XvBvBespILYfownSUizjTmD32e0SykdPpvgsKR4N6OPXcALg0s5/NJoMXTzItf6AAKOl/LhUB6CBpioutDCbvsJz2EbZm+eCmn8fiedR2LqZFr7mhb98WdvJ5gBgEfXv6s+ota6gbn97f52JdeCr/eq06BT8tOjExnw15hyW//8VRVLibSk+WWG7oz+hCyPbUxm6ZxjqXEqKD/fj0R6fGfAQDGMB7mUtxbZL7YpaG3EfRmILUPEthOoClnvWEuVP8tnlYrzTugEULwuKQpQE0DlxhZ9mp2V/BLw9TPpCcM7BTNmqFGrIvnVN3AJ4UY8NSa7vlpKbrjFepEMBbT+7Nq4tNPTRXLr9kc2oZhv5GOpmQZ4m2AyyG7D8UYIyrQqGa6sBK2CZ3ryWaTcHOE4glvO6JMmrTKOTmq84jzc9V3LCxL/RZX61Ng6yk+e0C8G0n0Y2k5+xv7s8SCPEY82pIJPMzYt3cpxqGSYqBoPaDZjBP7afndisx54qTmhjj8GijqXfgxiR3NoW7uNB3/5OhmitRFOEiw8sQvtycxhwlsdCS8iDwuMxLWQELO0PSv8YBcxmgEa8SzHWw== soul@soul-VB
+      
